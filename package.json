@@ -1,0 +1,15 @@
+{
+  "name": "migrate_customer_description",
+  "version": "1.0.0",
+  "description": "migrate customer description from crs to scoring",
+  "main": "app.js",
+  "scripts": {
+    "start-migration": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Branko",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.5.1"
+  }
+}
